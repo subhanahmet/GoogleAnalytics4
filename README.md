@@ -358,12 +358,13 @@ begin_checkout event bilgileri ile aynı olacak.
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({ 'ecommerce': null }); // Önceki eventın ecommerce verisini temizler.
 window.dataLayer.push({
-    'event': "begin_checkout",
+    'event': "add_payment_info",
     'ecommerce': {
 
         // GA4 event parametreleri ⤵️
         'currency': "TRY",
         'value': 1480.99,
+        'payment_type': "Kredi Kartı", // Ödeme Türü
         'items': [{
             'item_name': "Pamuk Slim Fit Bisiklet Yaka Kısa Kollu Tişört",
             'item_id': "123",
