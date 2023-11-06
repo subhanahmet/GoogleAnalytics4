@@ -511,4 +511,9 @@ var user_data = [{
 }]
 ```
 
-> Sübhan Ahmet - [highping.com.tr](https://highping.com.tr/)
+## Sübhan Ahmet - [highping.com.tr](https://highping.com.tr/)
+
+## Google Tag Manager ile çalışırken bu kural faydanıza olacaktır.
+
+![3kural](https://snipboard.io/ZcuOlL.jpg) 
+
