@@ -511,4 +511,4 @@ var user_data = [{
 }]
 ```
 
-> Sübhan Ahmet - highping.com.tr
+> Sübhan Ahmet - [highping.com.tr](https://highping.com.tr/)
