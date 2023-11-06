@@ -21,7 +21,7 @@ Eventta yer alan parametre ve aldıkları değerler aşağıdaki gibi olacak:
 
 - **item_name** - ürün ismi
 
-- **item_id** - ürün id değeri. dikkat ❗❗❗ sku değil, id olacak
+- **item_id** - ürün id değeri. DİKKAT ❗❗❗ sku değil, id olacak
 
 - **price** - ürün fiyatı. küsürat nokta ile ayrılacak ve Number olarak
 
@@ -47,7 +47,7 @@ Eventta yer alan parametre ve aldıkları değerler aşağıdaki gibi olacak:
 
 #
 
-### 🚩 Liste Görüntüleme - **view_item_list** Event
+### 🚩 Liste Görüntüleme - **view_item_list**
  
 ```view_item_list``` kategori sayfalarında listelenen ürünleri ölçer.
 
@@ -118,7 +118,7 @@ window.dataLayer.push({
 });
 ```
 
-### 🚩 Ürün Görüntüleme - **view_item** Event
+### 🚩 Ürün Görüntüleme - **view_item**
  
 ```view_item``` ürün ayrıntılarının kaç kez görüntülendiğini ölçer. Bu event ürün sayfaları yüklendiğinde tetiklenir.
 
@@ -153,7 +153,7 @@ window.dataLayer.push({
 });
 ```
 
-### 🚩 Sepete Ekleme - **add_to_cart** Event
+### 🚩 Sepete Ekleme - **add_to_cart**
  
 ```add_to_cart``` sepete eklenen ürünlerin ölçümünü yapar. Bu event sepete ekleme işlemi yapılan tüm sayfalarda tetiklenecek.
  
@@ -188,7 +188,7 @@ window.dataLayer.push({
 });
 ```
 
-### 🚩 Sepet - **view_cart** Event
+### 🚩 Sepet - **view_cart**
 
 ```view_cart``` sepetteki ürünlerin ölçümünü yapar. Bu event sepet sayfasında tetiklenecek.
 
@@ -257,7 +257,7 @@ window.dataLayer.push({
 });
 ```
 
-### 🚩 Sepetten Çıkarma - **remove_from_cart** Event
+### 🚩 Sepetten Çıkarma - **remove_from_cart**
  
 ```remove_from_cart``` sepetten çıkarılan ürünlerin ölçümünü yapar.
  
@@ -288,7 +288,7 @@ window.dataLayer.push({
 });
 ```
 
-### 🚩 Ödeme Başlatma - **begin_checkout** Event
+### 🚩 Ödeme Başlatma - **begin_checkout**
  
 ```begin_checkout``` kullanıcı ödeme işlemini başlattığında gönderilir ve ödeme başlatma işlemlerini ölçmek için kullanılır.
 
@@ -348,7 +348,7 @@ window.dataLayer.push({
 });
 ```
 
-### 🚩 Ödeme Yöntemi - add_payment_info Event
+### 🚩 Ödeme Yöntemi - add_payment_info
  
 ```add_payment_info``` kullanıcı ödeme yöntemini seçtiği sayfada tetiklenir.
 
@@ -408,7 +408,7 @@ window.dataLayer.push({
 });
 ```
 
-### 🚩 Alışveriş Tamamlama - purchase Event
+### 🚩 Alışveriş Tamamlama - purchase
 
 ```purchase``` satın alma işlemini tamamladığında tetiklenir.
  
@@ -496,7 +496,7 @@ dataLayer.push({
 ```
 
 > Bunların haricinde tüm sayfalarda giriş yapmış müşterinin bilgilerini içeren dizi yazdırılacaktır.
-Eğer kullanıcı giriş yapmamışsa "" boş gönderilecek.
+Eğer kullanıcı giriş yapmamışsa boş ("") gönderilecek. Hangi bilgiler varsa gönderilsin, olmayanlar boş ("") gönderilsin.
 
 ```javascript
 var user_data = [{
